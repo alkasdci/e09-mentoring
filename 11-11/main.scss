@@ -1,0 +1,18 @@
+@use './variables/mobi' as *;
+@use "./variables/ion";
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: lightcoral;
+    font-size: large;
+    color:bisque
+}
+
+h1 {
+    font-size: 2rem;
+    color: $demo2;
+    &:hover {
+        color: blue;
+    }
+}
