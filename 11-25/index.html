@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo calc</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+
+            height: 100px;
+            width: 100%;
+            background: lightgreen;
+        }
+
+        .main {
+            background: pink;
+            width: 100%;
+            height: calc(100vh - 100px)
+        }
+    </style>
+</head>
+<body>
+     <div class="header">header</div>
+     <div class="main"> main</div>
+
+     <script>
+        const myName = 'alkis'
+        console.log(myName)
+     </script>
+</body>
+</html>
